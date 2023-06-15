@@ -2,6 +2,8 @@ import './styles/globals.css'
 import 'antd/dist/reset.css'
 
 import { Providers } from './providers'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body>
+        <Header />
         <Providers>{children}</Providers>
+        <Footer />
       </body>
     </html>
   )
