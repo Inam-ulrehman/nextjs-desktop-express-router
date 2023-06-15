@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import styles from './page.module.css'
-import { Test } from './components/test'
 
 export default function Home() {
   return (
     <main>
-      <Test />
+      <h1>Next.js + Ant Design</h1>
+      <h1></h1>
     </main>
   )
 }
